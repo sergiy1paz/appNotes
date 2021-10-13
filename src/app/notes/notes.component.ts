@@ -16,6 +16,7 @@ export class NotesComponent implements OnInit {
 
   notes: Note[] = [
     {content: "Create new note", isChecked: false},
+
   ];
 
 

@@ -1,8 +1,14 @@
-
+:host {
+    height: 100%;
+}
 
 .notes-container {
     /* width: 100%; */
+    width: 97%;
+    height: 73%;
     padding: 10px;
+    overflow-y: scroll;
+
 }
 
 .note {

@@ -2,7 +2,7 @@
   <main class="main">
     <div class="content">
       <h2>What you need to do?</h2>
-      <app-notes [filterType]=filter></app-notes>
+      <app-notes [filterType]="filter"></app-notes>
     </div>
     <div class="button-container">
       <button  class="btn" (click)="switchFilterOn('all', true)" [ngClass]="{isAll: isAll}">All</button>
