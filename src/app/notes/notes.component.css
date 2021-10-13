@@ -1,0 +1,36 @@
+
+
+.notes-container {
+    /* width: 100%; */
+    padding: 10px;
+}
+
+.note {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.note > button {
+    background: white;
+    border: none;
+    color: rgb(218, 210, 210);
+    font-size: 1em;
+    margin-right: 5px;
+}
+
+.note > input[type=checkbox] {
+    transform: scale(3);
+}
+
+.note > button:hover {
+    color: gray;
+}
+
+label.checked {
+    text-decoration: line-through;
+    color: rgb(218, 210, 210);
+}

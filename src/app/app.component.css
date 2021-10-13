@@ -1,0 +1,86 @@
+.container {
+    max-width: 1180px;
+    margin: auto;
+    padding: 10px;
+}
+
+.main {
+    width: 70%;
+    margin: auto;
+
+}
+
+div.content {
+    width: 100%;
+    height: 500px;
+    border: 3px solid rgb(189, 187, 187);
+    border-radius: 10px;
+}
+
+.content > h2 {
+    text-align: center;
+    border-bottom: 3px solid rgb(189, 187, 187);
+    padding: 0px 0px 10px 0px;
+    color: rgb(218, 210, 210);
+    font-size: 2em;
+}
+
+
+/* buttons start */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container > .btn {
+    background: white;
+    border: none;
+    font-size: 1.5em;
+    color: rgb(218, 210, 210);
+}
+
+.button-container > button:hover {
+    font-size: 2em;
+}
+
+.button-container > button.new:hover {
+    color: red;
+}
+
+.button-container > button.isAll {
+    font-weight: bold;
+    color: black;
+}
+
+
+/* buttons end */
+
+/* new note container start */
+.newNoteContainer {
+
+    text-align: center;
+    border: 3px solid rgb(189, 187, 187);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.newNoteContainer > input.textInput {
+    width: 50%;
+    margin: auto;
+}
+
+.newNoteContainer  button {
+    border: none;
+    background-color: white;
+    font-size: 1.5em;
+    margin-top: 5px;
+    color: rgb(218, 210, 210);
+}
+
+.newNoteContainer  button:hover {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+/* new note container end */

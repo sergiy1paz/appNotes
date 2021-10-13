@@ -1,0 +1,7 @@
+<div class="notes-container">
+    <div class="note" *ngFor="let note of (notes | noteFilter:filterType)" >
+        <input type="checkbox" (change)=checkNote(note)>
+        <label [ngClass]="{checked: note.isChecked}">{{note.content}}</label>
+        <button (click)="removeNote(note)">X</button>
+    </div>
+</div>
